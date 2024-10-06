@@ -8,7 +8,8 @@ plugins:
   extractors:
   - name: tap-formbricks
     namespace: tap_formbricks
-    pip_url: -e .
+    pip_url: tap-formbricks
+    executable: tap-formbricks
     capabilities:
     - state
     - catalog
