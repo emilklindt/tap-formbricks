@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "emilklindt-tap-formbricks"
+name = "tap-formbricks"
 version = "0.0.1"
 description = "Singer tap for Formbricks, built with the Meltano Singer SDK."
 readme = "README.md"
