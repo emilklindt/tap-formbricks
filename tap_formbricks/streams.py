@@ -9,7 +9,7 @@ from singer_sdk import typing as th  # JSON Schema typing helpers
 
 from tap_formbricks.client import FormbricksStream
 
-class PersonsStream(FormbricksStream):
+class PeopleStream(FormbricksStream):
     """Define people stream."""
 
     name = "people"

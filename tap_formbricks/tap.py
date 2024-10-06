@@ -29,7 +29,7 @@ class TapFormbricks(Tap):
             A list of discovered streams.
         """
         return [
-            streams.PersonsStream(self),
+            streams.PeopleStream(self),
             streams.SurveysStream(self),
             streams.ResponsesStream(self),
             streams.ActionClassesStream(self),
