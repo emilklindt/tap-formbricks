@@ -4,14 +4,6 @@
 
 Built with the [Meltano Singer SDK](https://sdk.meltano.com).
 
-## Installation
-
-Install from GitHub:
-
-```bash
-pipx install git+https://github.com/emilklindt/tap-formbricks.git@main
-```
-
 ## Capabilities
 
 * `catalog`
@@ -34,6 +26,14 @@ A full list of supported settings and capabilities is available by running: `tap
 ### Source Authentication and Authorization
 
 To use `tap-formbricks`, you need to authenticate with the Formbricks API. After signing up for Formbricks, you can find your API key in the configuration's API key section.
+
+## Installation
+
+Install from GitHub:
+
+```bash
+pipx install git+https://github.com/emilklindt/tap-formbricks.git@main
+```
 
 ## Developer Resources
 
