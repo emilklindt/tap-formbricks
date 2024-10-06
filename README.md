@@ -29,6 +29,12 @@ To use `tap-formbricks`, you need to authenticate with the Formbricks API. After
 
 ## Installation
 
+Install from PyPi:
+
+```bash
+pipx install tap-formbricks
+```
+
 Install from GitHub:
 
 ```bash
